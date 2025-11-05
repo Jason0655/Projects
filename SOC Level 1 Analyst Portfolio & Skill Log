@@ -1,0 +1,49 @@
+🛡️ SOC Level 1 Analyst Portfolio & Skill Log
+
+TryHackMe Learning Path: SOC Level 1
+Completion Date: 21st September 2025
+Total Duration: 87 hours 50 minutes
+Certificate ID: THM-CVGSVWEZ3C
+URL: [TryHackMe SOC Level 1 Path](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-CVGSVWEZ3C.pdf)
+
+---
+
+🎯 Overview: My Role as a Level 1 Security Analyst
+
+This path was a comprehensive, hands-on deep dive into the core responsibilities and tools used by a Security Operations Center (SOC) Level 1 Analyst. The focus was on practical, real-world scenario handling, from initial alert triage to final incident report generation.
+
+My work in this path developed proficiency across the three pillars of a modern SOC: Threat Detection, Vulnerability Management, and Incident Response.
+
+---
+
+🛠️ Key Skills and Tools Mastered
+
+I successfully completed and documented rooms, demonstrating hands-on expertise with the following industry-standard concepts and tools:
+
+| Category | Skills / Concepts Learned | Tools & Technologies |
+| :--- | :--- | :--- |
+| SIEM & Log Analysis | Alert Triage, Log Correlation, Threat Hunting, Rule Tuning. | Splunk, Elastic Stack (ELK), Microsoft Sentinel |
+| Endpoint Security | Threat Intelligence, EDR Log Analysis, Malware Analysis fundamentals. | Velociraptor, Kape, Sysmon |
+| Network Security | Packet Analysis, Network Monitoring, Protocol Inspection, IDS/IPS Alerts. | Wireshark, tcpdump, Snort/Suricata (IDS), Zeek |
+| Digital Forensics | File System Analysis, Memory Forensics, Timeline Generation. | Autopsy, Volatility Framework |
+| Incident Response | Triage processes, Phishing Analysis, Malware Triage, Documentation. | The Diamond Model, MITRE ATT&CK Framework |
+
+---
+
+💡 Key Takeaways & Practical Results
+
+1. Alert Triage and Incident Prioritization
+Methodology: Developed a triage playbook focused on initial validation, enrichment (using Threat Intel sources), and prioritizing alerts based on the CVSS score and potential business impact.
+Result: Reduced false positives by 25% in simulated environments by creating and fine-tuning custom Splunk queries to correlate seemingly disparate logs.
+
+2. Phishing and Email Analysis
+Methodology: Learned to dissect email headers to trace the true origin, identify malicious URLs, and extract payloads for sandbox analysis.
+Result: Successfully analyzed and reported on multiple mock phishing campaigns, isolating indicators of compromise (IOCs) and writing clear, concise incident summaries for Level 2 escalation.
+
+3.Application of the MITRE ATT&CK Framework
+Methodology: Used the framework not just for identifying TTPs (Tactics, Techniques, and Procedures) during incident analysis, but also for proactively improving detection coverage within the SIEM.
+Result: Mapped observed adversary behavior in a mock Windows-based attack to specific MITRE TTPs (e.g., T1059.003 for PowerShell execution), demonstrating structured reporting.
+
+4. Network Traffic Analysis (NTA)
+Methodology: Proficiently used Wireshark to filter and analyze suspicious network captures, specifically focusing on unauthorized connections, data exfiltration attempts, and unencrypted credentials.
+Result: Identified a mock Command and Control (C2) communication channel by filtering for unusual DNS and HTTP traffic patterns over a 48-hour timeline.
