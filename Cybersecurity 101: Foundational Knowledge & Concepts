@@ -1,0 +1,51 @@
+📘 Cybersecurity 101: Foundational Knowledge & Concepts
+
+TryHackMe Learning Path: Cyber Security 101
+Completion Date: 31st October 2025
+Total Duration: 45 hours 53 minutes
+Certificate ID: THM-PYX6F8VWHS
+URL: [TryHackMe Cyber Security 101 Path](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-PYX6F8VWHS.pdf)
+
+---
+
+🎯 Overview: Building the Foundation
+
+This path provided a solid, holistic understanding of the cybersecurity landscape, covering the five core functional areas that underpin all security programs: Identify, Protect, Detect, Respond, and Recover (based on the NIST Cybersecurity Framework).
+
+This foundational knowledge is crucial for understanding how my technical skills (e.g., from the SOC Level 1 path) fit into a larger organizational security strategy, making me a more well-rounded and business-aware professional.
+
+---
+
+🧠 Core Concepts and Domains Covered
+
+The learning journey established a strong baseline in the following domains:
+
+| Domain | Key Concepts Learned | Business Context / Application |
+| :--- | :--- | :--- |
+| Security Architecture | OSI Model, TCP/IP, Cryptography (Symmetric vs. Asymmetric), Defense in Depth. | Understanding network flow and where security controls (Firewalls, IDS) are best implemented. |
+| Vulnerability & Risk | Vulnerability vs. Exploit, Risk Management (Qualitative & Quantitative), Threat Modeling. | Ability to communicate risk to non-technical stakeholders and prioritize remediation efforts. |
+| Access Control | Authentication, Authorization, Accounting (AAA), Least Privilege, Multi-Factor Authentication (MFA). | Designing secure access policies and procedures for organizational assets. |
+| Governance, Risk & Compliance (GRC) | Data protection laws (e.g., GDPR), Compliance Audits, Information Security Policies. | Ensuring the security program aligns with legal, regulatory, and business requirements. |
+| Operational Security | Incident Response Lifecycle, Disaster Recovery, Business Continuity Planning. | Understanding the procedures for minimizing damage and downtime following an incident. |
+
+---
+
+📈 Business Case Takeaways (Strategic Value)
+
+The course reinforced a key understanding: Cybersecurity is a business enabler, not just a cost center.
+
+The provided reading materials, such as "Cost savings by investing in Cyber Security training," highlighted my ability to understand and articulate security issues in a business context:
+
+The Problem: The most significant pain points for organizations are recruitment struggles (overheated job market), slow ramp-up time for new hires, and senior employee burnout from creating/maintaining in-house training or handling low-level incidents.
+My Solution Value: My hands-on experience and structured certification (like THM completion) directly address these problems:
+    Reduced Recruitment Risk: I possess validated, hands-on skills, reducing the guesswork in the hiring process.
+    Accelerated Ramp Time: My familiarity with tools like Splunk and Wireshark allows me to become productive faster than a candidate with only theoretical knowledge.
+    Reduced Reliance on Consultants: My training ensures our team can handle more issues internally, saving the cost of external expertise.
+
+My experience on TryHackMe demonstrates that I am the type of hire who immediately provides cost savings and increased team effectiveness.
+
+---
+
+🚀 Readiness for Next Steps
+
+Having established a solid foundation and demonstrated practical SOC skills, I am prepared to begin an entry-level role with a strong understanding of both the technical 'how' and the business 'why' behind cybersecurity operations.
