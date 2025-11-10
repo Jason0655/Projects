@@ -1,0 +1,62 @@
+🌐 Web Application Security: OWASP Top 10 (2021) Simulation
+
+Project Focus: Application Penetration Testing (Red Team) & Vulnerability Mitigation (Blue Team)
+Learning Platform: TryHackMe
+Room URL: [OWASP Top 10 - 2021](https://tryhackme.com/room/owasptop102021)
+
+---
+
+🎯 Project Goal and Real-World Application
+
+The primary goal of this simulation was to systematically identify and ethically exploit the 10 most critical web application security risks, as defined by the OWASP Foundation.
+
+This project directly simulates the tasks of an Application Security (AppSec) Engineer or a Web Penetration Tester, showing proficiency in:
+Vulnerability Assessment: Identifying flaws in source code and application logic.
+Exploitation: Demonstrating the impact of the flaws using common attack techniques.
+Mitigation: Providing targeted, actionable recommendations to developers and engineers.
+
+---
+
+🛠️ Tools and Techniques Utilized
+
+| Category | Tool Used | Technique Demonstrated |
+| :--- | :--- | :--- |
+| Interception Proxy | Burp Suite Community Edition | Manipulating requests/responses, payload crafting, and session management analysis. |
+| Code Injection | Custom crafted SQL/Payloads | SQL Injection (A01:2021), Cross-Site Scripting (XSS). |
+| Fuzzing & Discovery | Dirbuster/GoBuster (Simulated) | Discovering hidden directories, sensitive files, and unlinked endpoints. |
+| Server Interaction | Netcat / Command Line | Out-of-band data retrieval and establishing reverse shells (simulated RCE). |
+
+---
+
+💡 Key Exploits and Mitigation Strategies
+
+I successfully identified, exploited, and documented the risk and remediation for each of the major vulnerabilities.
+
+| OWASP Top 10 Category | Exploitation Method Demonstrated | Mitigation Strategy (Blue Team Takeaway) |
+| :--- | :--- | :--- |
+| A01:2021: Broken Access Control | Insecure Direct Object Reference (IDOR) by manipulating user IDs in URL parameters to access other users' accounts/data. | Implement Principle of Least Privilege (PoLP) and use session-level authorization checks for every request accessing a resource. |
+| A03:2021: Injection | SQL Injection via input fields, bypassing login, and extracting database contents. | Always use Parameterized Queries (Prepared Statements) to separate data from query logic, and implement strict input validation. |
+| A04:2021: Insecure Design | Business Logic Flaws where application trust was placed solely on client-side input, allowing unauthorized actions. | Integrate Threat Modeling into the Software Development Life Cycle (SDLC) to proactively design security controls. |
+| A05:2021: Security Misconfiguration | Exploited default credentials, exposed administrative interfaces, and non-hardened configurations (e.g., verbose error messages). | Implement a Hardening Checklist (CIS Benchmarks) and ensure all default configurations and credentials are changed/disabled upon deployment. |
+| A07:2021: Identification and Authentication Failures | Circumvented weak password policies or exploited lack of rate-limiting on login forms (Brute-Forcing). | Enforce strong, complex passwords, implement MFA, and establish effective rate limiting on all authentication endpoints. |
+| A09:2021: Security Logging and Monitoring Failures | Executed attacks without generating adequate log data, preventing detection and analysis. | Ensure comprehensive, normalized logs capture all critical events (e.g., failed logins, object access, command execution) and are fed to a SIEM. |
+
+---
+
+📈 Results and Deep Dive Takeaways
+
+1. The Value of Input Validation
+My core takeaway from this path is the critical nature of trusting no input. Exploiting vulnerabilities like SQL Injection and Cross-Site Scripting (A03/A02) repeatedly demonstrated that even simple flaws can lead to data theft or full system compromise if inputs are not sanitized, validated, or parameterized server-side.
+
+2. Blue Team Focus: Shift Left Security
+The mitigation aspect of this project developed a Blue Team mindset. Instead of just finding the flaw, I practiced identifying the root cause in the application's design or code. This experience emphasizes the concept of "Shift Left"—integrating security testing and threat modeling early in the development pipeline to prevent these common flaws from reaching production.
+
+3. Professional Documentation
+For each vulnerability, a comprehensive internal report (simulated) was created, detailing:
+Vulnerability: Exact description and affected component.
+Proof of Concept (PoC): The successful exploit code/sequence.
+Risk Impact: (e.g., Critical, High) based on potential damage and exploitability.
+Remediation: Specific code-level or configuration fixes required.
+
+This documentation serves as a practical example of the deliverables required in a professional penetration testing engagement.
+```
